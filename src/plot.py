@@ -1,6 +1,26 @@
+"""
+Author: Aviraj Saha
+Date: 30-09-2023
+Purpose: Plotting graphs from datasets and saving them to specified paths.
+"""
+
+# Metadata
+__author__: str = "Aviraj Saha"
+__description__: str = "Plotting graphs from datasets and saving them to specified paths."
+__all__: tuple[str] = ("generate_data_readings", "create_dataset", "create_figure","scatter_data_3d","main",)
+__depedencies__: tuple[str] = (
+    "numpy==1.26.0",
+    "matplotlib==3.8.0"
+)
+__keywords__: tuple[str] = ("__author__", "__description__", "__all__", "__depedencies__", "__keywords",
+                "generate_data_readings", "create_dataset", "create_figure","scatter_data_3d","main")
+
+
+# Importing dependencies
 import numpy as np
 import matplotlib.pyplot as plt
 # import typing
+
 
 # Parameters to plot
 pressure: float
@@ -8,7 +28,8 @@ temp: float
 alt: float
 # time: float
 light_intensity: float
- 
+
+
 # Graphs
 fig_1: plt.Figure # Temperature vs Pressure vs Light intensity
 fig_1_axes: plt.Axes
@@ -22,11 +43,13 @@ fig_3_axes: plt.Axes
 fig_4: plt.Figure # Altitude vs Pressure vs Light intensity
 fig_4_axes: plt.Axes
 
+
 # Paths
 fig_1_path: str = 'plots/temp_vs_pressure_vs_intensity.png'
 fig_2_path: str = 'plots/temp_vs_alt_vs_intensity.png'
 fig_3_path: str = 'plots/temp_vs_pressure_vs_alt.png'
 fig_4_path: str = 'plots/alt_vs_pressure_vs_intensity.png'
+
 
 # Datasets used
 dataset_1: list[tuple[float, float, float]] # (temp, pressure, intensity)
