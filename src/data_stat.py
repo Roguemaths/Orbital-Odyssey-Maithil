@@ -11,7 +11,7 @@ __all__: tuple[str] = ("mean", "median", "mode","mean_deviation_","standard_devi
 __depedencies__: tuple[str] = (
     "numpy==1.26.0",
 )
-__keywords__: tuple[str] = ("__author__", "__description__", "__all__", "__depedencies__", "__keywords",
+__keywords__: tuple[str] = ("__author__", "__description__", "__all__", "__depedencies__", "__keywords__",
                 "mean", "median", "mode","mean_deviation_","standard_deviation","variance")
 
 

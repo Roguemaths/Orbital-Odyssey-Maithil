@@ -4,15 +4,17 @@ Date: 30-09-2023
 Purpose: Plotting graphs from datasets and saving them to specified paths.
 """
 
+
 # Metadata
 __author__: str = "Aviraj Saha"
 __description__: str = "Plotting graphs from datasets and saving them to specified paths."
 __all__: tuple[str] = ("generate_data_readings", "create_dataset", "create_figure","scatter_data_3d","main",)
 __depedencies__: tuple[str] = (
     "numpy==1.26.0",
-    "matplotlib==3.8.0"
+    "matplotlib==3.8.0",
+    "python_standard_libs"
 )
-__keywords__: tuple[str] = ("__author__", "__description__", "__all__", "__depedencies__", "__keywords",
+__keywords__: tuple[str] = ("__author__", "__description__", "__all__", "__depedencies__", "__keywords__",
                 "generate_data_readings", "create_dataset", "create_figure","scatter_data_3d","main")
 
 
