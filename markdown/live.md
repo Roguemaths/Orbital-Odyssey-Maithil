@@ -17,11 +17,11 @@
 
 
 ## Temperature Sensor Report
-- **Mean:** [Temperature_Mean_Value]
-- **Median:** [Temperature_Median_Value]
-- **Mode:** [Temperature_Mode_Value]
-- **Variance:** [Temperature_Variance_Value]
-- **Standard Deviation:** [Temperature_Standard_Deviation_Value]
+- **Mean:** 15.318410719304138 °C
+- **Median:** 13.089103773175498 °C
+- **Mode:** 19.444451992887863 °C
+- **Variance:** 15.330914362953125 °C
+- **Standard Deviation:** 3.915471154657269 °C
 
 
 ---
@@ -30,11 +30,11 @@
 - **Error:** [Pressure_Error_Percent]
 
 ## Pressure Sensor Report
-- **Mean:** [Pressure_Mean_Value]
-- **Median:** [Pressure_Median_Value]
-- **Mode:** [Pressure_Mode_Value]
-- **Variance:** [Pressure_Variance_Value]
-- **Standard Deviation:** [Pressure_Standard_Deviation_Value]
+- **Mean:** 76.33941463086711 Pa
+- **Median:** 76.31765776525953 Pa
+- **Mode:** 92.16338702016864 Pa
+- **Variance:** 118.06180544774315 Pa
+- **Standard Deviation:** 10.865624945107536 Pa
 
 ---
 
@@ -43,22 +43,22 @@
 - **Error:** [Altitude_Error_Percent]
 
 ## Altitude Sensor Report
-- **Mean:** [Altitude_Mean_Value]
-- **Median:** [Altitude_Median_Value]
-- **Mode:** [Altitude_Mode_Value]
-- **Variance:** [Altitude_Variance_Value]
-- **Standard Deviation:** [Altitude_Standard_Deviation_Value]
+- **Mean:** 25189.598640403983 cm
+- **Median:** 24400.900363500718 cm
+- **Mode:** 23635.65834508031 cm
+- **Variance:** 47472.62872665182 cm
+- **Standard Deviation:** 2178.821441207421 cm
 ---
 ## Light Level Sensor Report
 - **Readings:** [Light_Level_Readings]
 - **Error:** [Light_Level_Error_Percent]
 ## Light Level Sensor Report
 
-- **Mean:** [Light_Level_Mean_Value]
-- **Median:** [Light_Level_Median_Value]
-- **Mode:** [Light_Level_Mode_Value]
-- **Variance:** [Light_Level_Variance_Value]
-- **Standard Deviation:** [Light_Level_Standard_Deviation_Value]
+- **Mean:** 95.40410190219043 Candela
+- **Median:** 133.57618207777136 Candela
+- **Mode:** 22.422009173480223 Candela
+- **Variance:** 2618.0686450881135 Candela
+- **Standard Deviation:** 51.16706601993233 Candela
 
 ---
 ## Graphs

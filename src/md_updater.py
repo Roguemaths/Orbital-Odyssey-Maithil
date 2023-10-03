@@ -17,7 +17,6 @@ __keywords__: tuple[str] = ("__author__", "__description__", "__all__", "__deped
 
 
 from logging import basicConfig, warning, WARNING
-
 basicConfig(level=WARNING)
 
 
@@ -33,7 +32,7 @@ def update(md_live_path: str, **data: dict[str: str]) -> None:
             invalid_placeholders.append(key)
 
     if invalid_placeholders:
-        raise ValueError(f"Placeholders {invalid_placeholders} in not found in {md_live_path}")
+        raise ValueError(f"Placeholders {invalid_placeholders} in not found in {md_live_path}") 
 
     # Replace placeholders in the Markdown content with actual values
     for placeholder, value in data.items():
@@ -58,6 +57,15 @@ def restore(*, md_live_path: str, md_backup_path: str) -> None:
 
     # warning(f'MD content has been restored from {md_backup_path}, to {md_live_path}')
 
+
+
+def live_readings(md_readings_path: str, log_readings_path) -> None:
+    
+    while True:
+        with open(md_readings_path, 'w') as md_file:
+            with open(log_readings_path, 'r') as log_reading_file:
+                log_reading_file.read()
+            
 
 def main() -> None:
     update(md_live_path="markdown/live.md", 
